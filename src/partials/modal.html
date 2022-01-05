@@ -1,0 +1,75 @@
+<div class="basicLightbox  is-hidden " data-modal>
+  <div class="basicLightbox__placeholder">
+    <div class="modal">
+      <button class="btn-modal_close" data-modal-close></button>
+      <div class="modal-container">
+
+      </div>
+      <div class="modal-container-calculation visually-hidden">
+        <div class="modal-calculation">
+          <div class="calculation-titel">
+            <h2 class="modal-titel-calc">Рассчет рациона</h2>
+            <div class="calculation-link-container">
+              <a class="calculation-link link" href="https://www.whatsapp.com/" target="_blank">
+                <svg class="modal-svg">
+                  <use href="./images/sprite.svg#icon-WhatsappLogo"></use>
+                </svg>
+                WhatsApp</a>
+              <a class="calculation-link link " href="https://web.telegram.org/" target="_blank">
+                <svg class="modal-svg">
+                  <use href="./images/sprite.svg#icon-TelegramLogo"></use>
+                </svg>
+                Telegram</a>
+            </div>
+          </div>
+          <p class="calculation-tex">Заполните информацию и мы свяжемся с вами, чтобы подсказать с подбором рациона для
+            вашего хвостика. Или напишите нам в мессендерах.</p>
+          <form class="js-calculation-form" autocomplete="off">
+            <div class="calculation-form">
+              <div class="form-input">
+                <label class="radio-btn">
+                  <input class="chekbox-input-modal" type="radio" name="age" required /> <span
+                    class="icon-ratio-modal"></span> Взрослая собака
+                </label>
+                <label class="radio-btn">
+                  <input class="chekbox-input-modal" type="radio" name="age" required /> <span
+                    class="icon-ratio-modal"></span> Щенок
+                </label>
+                <label class="weight-age-lable">
+                  <input class="weight-age" type="weight" name="weight" required placeholder="Вес (кг)">
+                </label>
+                <label>
+                  <input class="weight-age" type="age" name="age" required placeholder="Возраст">
+                </label>
+                <label>
+                  <input class="calculation-contact" type="name" name="name" required placeholder="Имя">
+                </label>
+              </div>
+              <div class="form-input">
+                <label class="">
+                  <input class="calculation-contact" type="tel" name="tel" required placeholder="Телефон">
+                </label>
+                <label>
+                  <textarea class="calculation-texteria"
+                    placeholder="Если у вашего хвостика есть особенности здоровья – напишите об этом..."></textarea>
+                </label>
+              </div>
+            </div>
+            <div class="submit-containet">
+              <label class="check-tex-modal">
+                <input class="chekbox-input-modal" required type="checkbox">
+                <span class="icon-chekt-modal"></span>
+                Даю согласие на обработку персональных данных
+              </label>
+              <button class="calculation__button" type="submit">Расчитать</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+</div>

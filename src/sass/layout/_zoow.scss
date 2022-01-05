@@ -1,0 +1,199 @@
+.zooov-container {
+  background-image: url(../images/Vectorping.png);
+  background-position-y: 75px;
+  background-size: 1440px;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  max-width: 400px;
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1024px) {
+    padding-top: 170px;
+    padding-bottom: 170px;
+    background-position-y: 230px;
+    max-width: 1440px;
+  }
+}
+
+.zooov {
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 57px;
+  }
+}
+
+.vectorzooov {
+  position: relative;
+}
+
+.zooov-item {
+  margin-bottom: 40px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 0px;
+  }
+}
+.zooov-vector3 {
+  position: absolute;
+  width: 11px;
+  left: 260px;
+  bottom: -76px;
+  @media screen and (min-width: 1024px) {
+    left: 290px;
+  }
+}
+.zooov-vector4 {
+  position: absolute;
+  width: 11px;
+  left: 263px;
+  bottom: -63px;
+  @media screen and (min-width: 1024px) {
+    left: 293px;
+  }
+}
+.zooov-vector5 {
+  position: absolute;
+  width: 5px;
+  left: 250px;
+  bottom: -84px;
+  @media screen and (min-width: 1024px) {
+    left: 280px;
+  }
+}
+
+.zooov-list {
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 1024px) {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+.zoov-colum {
+  @media screen and (min-width: 1024px) {
+    display: inline-flex;
+  }
+}
+.zooov-titel {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.27;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--second-tex-color);
+
+  &::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.leafsvg::before {
+  margin-bottom: 16px;
+  margin-right: 265px;
+  background-image: url(../images/Leaf.svg);
+  @media screen and (min-width: 1024px) and (max-width: 1400px) {
+    margin-right: 190px;
+  }
+}
+
+.heardsvg::before {
+  margin-right: 265px;
+  margin-bottom: 16px;
+  background-image: url(../images/Heartbeat.svg);
+  @media screen and (min-width: 1024px) and (max-width: 1400px) {
+    margin-right: 190px;
+  }
+}
+
+.rocketsvg::before {
+  margin-right: 265px;
+  margin-bottom: 16px;
+  background-image: url(../images/RocketLaunch.svg);
+  @media screen and (min-width: 1024px) and (max-width: 1400px) {
+    margin-right: 190px;
+  }
+}
+
+.smileysvg::before {
+  margin-bottom: 16px;
+  background-image: url(../images/Smiley.svg);
+}
+
+.zooov-tex {
+  color: var(--second-tex-color);
+
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 0px;
+  }
+}
+.per {
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.por {
+  display: none;
+  @media screen and (min-width: 1024px) {
+    display: block;
+  }
+}
+.zov-vector {
+  position: relative;
+}
+.zooov-vector6 {
+  position: absolute;
+  width: 10px;
+  top: -80px;
+  left: 30px;
+  transform: rotate(90deg);
+
+  @media screen and (min-width: 1024px) {
+    top: -80px;
+    left: -5px;
+    transform: rotate(0deg);
+  }
+}
+
+.zooov-vector7 {
+  position: absolute;
+  width: 11px;
+  top: -70px;
+  left: 37px;
+  transform: rotate(150deg);
+  @media screen and (min-width: 1024px) {
+    top: -67px;
+    left: -12px;
+    transform: rotate(0deg);
+  }
+}
+
+.zooov-vector8 {
+  position: absolute;
+  width: 5px;
+  top: -83px;
+  left: 20px;
+  transform: rotate(20deg);
+
+  @media screen and (min-width: 1024px) {
+    top: -85px;
+    left: 10px;
+    transform: rotate(0deg);
+  }
+}

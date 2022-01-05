@@ -1,0 +1,139 @@
+.what-is-buff {
+  @media screen and (max-width: 768px) {
+    margin: 0px auto;
+    max-width: 588px;
+    padding-top: 80px;
+  }
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 170px;
+    padding-bottom: 80px;
+    align-items: center;
+    max-width: 1240px;
+  }
+}
+
+.what-is-buff__tex {
+  max-width: 540px;
+  margin: 24px 0px;
+
+  @media screen and (min-width: 481px) {
+    margin: 32px 0px 24px 0px;
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1200px) {
+    margin: 12px 0px 8px 0px;
+  }
+}
+
+.tex-title {
+  margin: 0 0 16px 0;
+  font-family: var(--main-tex);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.27;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--second-tex-color);
+}
+
+.tex-title__item {
+  padding-left: 16px;
+  margin: 0px;
+  list-style-image: url(../images/Ellipse.svg);
+}
+
+.tex-title__items {
+  margin-bottom: 20px;
+  @media screen and (min-width: 1024px) and (max-width: 1200px) {
+    margin-bottom: 5px;
+  }
+}
+
+.img-what-is-buf {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.what-is-buff-containet {
+  display: flex;
+  justify-content: space-between;
+}
+.what-is-buff__group {
+  overflow: hidden;
+
+  background-color: var(--backg-pink-color);
+  background-image: url(../images/Vector.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 427px;
+  margin: 0px auto;
+  padding: 56px 40px 56px 40px;
+  @media screen and (min-width: 768px) {
+    max-width: 588px;
+  }
+  @media screen and (min-width: 1023px) {
+    overflow: visible;
+    max-width: 1240px;
+    height: 280px;
+    padding: 28px 80px 35px 80px;
+  }
+}
+
+.slider {
+  display: none;
+  @media screen and (min-width: 1023px) {
+    display: block;
+  }
+}
+
+.group-title {
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--second-tex-color);
+}
+
+.group-content {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.5;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.group-box {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+  }
+}
+
+.group-item {
+  @media screen and (min-width: 768px) {
+    margin-right: 72px;
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1250px) {
+    margin-right: 30px;
+  }
+}
+
+.group-svg {
+  align-items: center;
+  height: 24px;
+  width: 24px;
+  margin-right: 17px;
+  @media screen and (min-width: 481px) {
+    height: 20px;
+    width: 20px;
+    margin-right: 16px;
+  }
+}

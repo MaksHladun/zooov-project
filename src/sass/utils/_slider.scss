@@ -1,0 +1,28 @@
+.tns-liveregion {
+  display: none;
+}
+.tns-controls {
+  display: none;
+}
+.tns-nav button {
+  background: #eddfd477;
+  border-color: rgba(150, 25, 20, 1);
+  border-radius: 50%;
+  height: 15px;
+  width: 10px;
+  margin: 5px;
+  outline: none;
+}
+.tns-nav button:not([tabindex]) {
+  background: rgba(150, 25, 20, 1);
+}
+.tns-outer {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.tns-nav {
+  margin: auto;
+}
+.tns-item {
+  margin-bottom: 40px;
+}

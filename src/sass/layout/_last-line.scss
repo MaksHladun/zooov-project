@@ -1,0 +1,44 @@
+.last-line {
+  height: 165px;
+  padding: 24px 24px;
+  padding-bottom: 0px;
+  background-color: rgba(105, 18, 14, 1);
+  @media screen and (min-width: 768px) {
+    padding: 24px 50px;
+    display: flex;
+    height: 80px;
+    align-items: center;
+  }
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 76px;
+    padding: 0px 120px;
+  }
+}
+.last-line-tex {
+  &:nth-child(2) {
+    padding-top: 24px;
+    padding-bottom: 8px;
+  }
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.41;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--white-tex-color);
+  opacity: 40%;
+  @media screen and (min-width: 768px) {
+    &:nth-child(2) {
+      padding: 0px;
+      margin-right: 50px;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    &:nth-child(2) {
+      padding: 0px;
+    }
+  }
+}
