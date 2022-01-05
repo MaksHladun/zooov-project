@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /filmoteka-project/"
+    "build": "parcel build src/*.html --public-url /zooov-project/"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "git+https://github.com/MaksHladun/zooov-project.git"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@pnotify/core": "^5.2.0",
+    "gulp-gh-pages": "^0.5.4",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1",
@@ -28,10 +29,10 @@
     "sass": "^1.32.8"
   },
   "dependencies": {
-   "basiclightbox": "^5.0.4",
+    "basiclightbox": "^5.0.4",
     "caniuse-lite": "^1.0.30001283",
     "lodash.debounce": "^4.0.8",
     "swiper": "^7.4.1",
-    "tiny-slider": "^2.9.4"   
+    "tiny-slider": "^2.9.4"
   }
 }
